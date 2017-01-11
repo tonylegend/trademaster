@@ -25,7 +25,7 @@ SECRET_KEY = 'fl+1jb7#6eysxy_)o2#!qh!#ju()f_kg7v-y3$9fd!r1&uogx)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.tradecompass.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
