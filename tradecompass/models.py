@@ -6,7 +6,7 @@ from django.utils import timezone
 class UserLog(models.Model):
     user = models.ForeignKey('auth.User')
     operation = models.CharField(max_length = 200)
-    detail = models.TextField
+   # detail = models.TextField()
     operation_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
     
